@@ -1,7 +1,9 @@
 """
-This code simulates the motion of a two-filament scallop. 
+This code simulates the dynamics of a two-filament scallop. 
 The hydrodynamic interactions between the two filaments are taken into account. 
 The model oscillates and does not generate a net swimming motion.
+
+Written by Xiaoping Hu and Shiyuan Hu <shiyuanhu@buaa.edu.cn>, Oct. 2025.
 """
 import numpy as np
 from scipy.linalg import solve
