@@ -191,7 +191,7 @@ if __name__ == "__main__":
     N = 100 # number of discrete segments
     L = 1.0  # filament length
     dt = 0.002 # time step
-    T = 1.0 # simulatio duration
+    T = 1.0 # simulation duration
     tau = 1.0 # oscillation period
     delta = 0.01 # regularization parameter
     nfine = 6 # number of Gauss–Legendre points
@@ -199,4 +199,5 @@ if __name__ == "__main__":
     # Create and run simulation
     # theta_A, theta_0, N, L, dt, T, tau, delta, nfine
     sim = TwoFilamentScallop(theta_A, theta_0, N, L, dt, T, tau, delta, nfine)
+
     sim.simulate(savedata=True)
